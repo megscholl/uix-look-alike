@@ -38,6 +38,7 @@ h1 {
 h2 {
     font-size: 25px;
     font-family: 'Nunito', sans-serif;
+    text-align: center;
     // font-variant: small-caps;
 }
 
@@ -62,7 +63,7 @@ nav ul li, a{
     font-size: 16px !important;
     padding: 0 10px !important;
     font-variant: small-caps;
-    font-weight: bold;
+    // font-weight: bold;
     }
     
 nav ul li:hover{
@@ -118,13 +119,14 @@ a {
     z-index: 100;
 }
 
-.left {
+.lang-left {
     position: absolute;
     font-family: 'PT Serif', serif;
     top: 40%;
     left: 30%;
     transform: translate(-50%, -50%);
 }
+
 .btm-left {
     position: absolute;
     font-family: 'PT Serif', serif;
@@ -141,6 +143,37 @@ button {
     border: none;
     background-color: white;
 }
+
+
+// CARDS
+
+#show-cards {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+
+.row .col.s3 {
+    width: 25%;
+    margin-left: 0 !important;
+    left: auto;
+    right: auto;
+}
+
+.card-content {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cookie {
+    font-family: 'Nunito', sans-serif;
+}
+
+.cost {
+    font-family: 'PT Serif', serif;
+}
+
+
 
 // FOOTER
 
@@ -200,4 +233,5 @@ footer li {
 p {
     font-family: 'PT Serif', serif;
     font-size: 13px;
+    text-align: center;
 }
