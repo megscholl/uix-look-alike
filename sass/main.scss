@@ -18,6 +18,83 @@ $paragraph: 'PT Serif', serif;
 
 // MAIN CSS
 
+body {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+// HEADER
+
+.nav-wrapper {
+    background-color: white !important;
+    margin-top: 2em;
+    }
+    
+.deina{
+    font-family: $paragraph;
+    font-size: 22px !important;
+    color: black !important;
+    text-decoration: none !important;
+    }
+    
+nav ul li a{
+    font-family: $header;
+    color: black !important;
+    font-size: 16px !important;
+    padding: 0 10px !important;
+    font-variant: small-caps;
+    font-weight: bold;
+    }
+    
+nav ul li:hover{
+       background-color: white !important;
+       }
+nav ul li a:hover{
+       background-color: white !important;
+    }
+
+nav ul li a:active {
+    color: $rose;
+}
+    
+    
+a {
+    color: black;
+    }
+    
+.row ul {
+       margin-top: 5em;
+    }
+    
+.bag {
+       height: 23px;
+       width: 18px;
+       margin-top: 15px;
+    }
+    
+.main {
+       background-color: $grey;
+       height: 600px;
+       width: 85%;
+       margin-top: 2em;
+    }
+    
+.content {
+       margin-top: 2em;
+    }
+.contentNav{
+    padding-top:6em;
+    }
+.contentNav li {
+       display: inline-block;
+       font-family: $paragraph;
+    }
+
+
+// FOOTER
+
 .foot-back-color {
     background-color: $footer !important;
 }
