@@ -4,6 +4,8 @@
 // STYLE GUIDE COLORS
 $mint: #c0e8dd;
 $pink: #f6d9ea;
+$footer: #FCF2F7;
+$grey: #F3F3F5;
 $lavendar: #d2d5ea;
 $rose: #d29fbb;
 $primary-font: #191919;
@@ -11,3 +13,35 @@ $primary-font: #191919;
 // STYLE GUIDE FONTS
 $header: 'Nunito', sans-serif;
 $paragraph: 'PT Serif', serif;
+
+
+
+// MAIN CSS
+
+.foot-back-color {
+    background-color: $footer !important;
+}
+
+footer {
+    color: black !important;
+    font-family: $paragraph;
+    font-size: 12px;
+    line-height: 200%;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
+footer h6 {
+    font-variant: small-caps;
+    font-family: $header;
+}
+
+.small {
+    font-size: 10px;
+}
+
+footer li {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
