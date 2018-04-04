@@ -17,7 +17,11 @@ $primary-font: #191919;
 
 
 
-// MAIN CSS
+                                //////////////
+                                //// HOME ////
+                                //////////////
+
+//////// MAIN CSS
 
 body {
     width: 85%;
@@ -42,7 +46,9 @@ h2 {
     // font-variant: small-caps;
 }
 
-// HEADER
+
+
+////////// HEADER
 
 .nav-wrapper {
     background-color: white !important;
@@ -114,7 +120,9 @@ a {
     cursor: pointer;
 }
 
-// BANNER
+
+
+////////// BANNER
 .banner-language {
     z-index: 100;
 }
@@ -145,7 +153,9 @@ button {
 }
 
 
-// CARDS
+
+
+////////// CARDS
 
 #show-cards {
     display: flex;
@@ -173,9 +183,24 @@ button {
     font-family: 'PT Serif', serif;
 }
 
+.row:after {
+    // content: "";
+    display: table;
+    clear: both;
+}
+
+#all button {
+    border: thin solid black;
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    top: 1400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
-// FOOTER
+
+////////// FOOTER
 
 .foot-back-color {
     background-color: $footer !important;
@@ -206,9 +231,13 @@ footer li {
 }
 
 
-// ABOUT PAGE CSS
 
-// IMAGE
+
+                                ///////////////
+                                //// ABOUT ////
+                                ///////////////
+
+////////// IMAGE
 
 #about-main-container {
     background-color: $grey;
@@ -223,7 +252,8 @@ footer li {
     margin-right: 60%;
 }
 
-// LANGUAGE
+////////// LANGUAGE
+
 .about-container {
     width: 45%;
     margin-left: auto;
@@ -234,4 +264,20 @@ p {
     font-family: 'PT Serif', serif;
     font-size: 13px;
     text-align: center;
+}
+
+
+
+
+                                //////////////
+                                //// SHOP ////
+                                //////////////
+
+.grey-back {
+    background-color: $grey;
+    padding: 10em;
+}
+
+.grey-card {
+    background-color: $grey;
 }
