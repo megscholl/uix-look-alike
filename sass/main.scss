@@ -281,3 +281,22 @@ p {
 .grey-card {
     background-color: $grey;
 }
+
+
+// :HOVER WILL SHOW A NEW IMAGE WHEN HOVERING OVER AN IMAGE IN THE SHOP PAGE (THIS IS FOR THE LAST COOKIE: SEEDS
+.seeds-image:hover {
+    position: absolute;
+    background: transparent url('../images/seeds-qv.jpg') no-repeat;
+    z-index: 100;
+    cursor: pointer;
+    width: 100%;
+  }
+
+.overlay-seeds:hover {
+    display: block;
+    background-image: url('../images/seeds-qv.jpg');
+    background-position: no-repeat;
+    width: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
